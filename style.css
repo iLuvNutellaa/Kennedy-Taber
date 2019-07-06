@@ -1,0 +1,254 @@
+.nav-wrap > .direct ul{
+    display:grid;
+    grid-column: 2fr;
+    align-items: center;
+    color: white;
+    list-style: none;
+   text-align: left;
+   position: relative;
+   margin: 0px;
+}
+
+.nav-wrap > .direct p{
+    color: rgb(235, 235, 103);
+    margin: 0px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 13px;
+    padding-left: 14px;
+    padding-bottom: 2px;
+}
+
+
+.nav-wrap {
+    display:flex;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(5, 5, 5);
+   
+}
+
+.nav-wrap > .direct ul {
+    display:flex;
+    align-items: center;
+    color: white;
+    list-style: none;
+    background-color: rgb(5, 5, 5);
+    padding: 5px;
+    font-family: 'Varela Round', sans-serif;
+    padding-top:0px;
+}
+
+.logo img {
+    display:flex;
+    align-items: left;
+    height: 100%;
+    width: 150px;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+body {
+    background: linear-gradient(to top left, rgb(12, 12, 12), rgb(49, 49, 49) ) fixed;
+    margin: 0px;
+  }
+
+ 
+.spark {
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    padding-left:20px;
+    font-family: 'Varela Round', sans-serif;
+    padding-right:200px;
+}
+
+.spark i{
+    color: gray;
+    padding-left: 12px;
+    font-size: 13px;
+}
+
+
+li {
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.btns > .create-btn {
+    background-color: #252121;
+    color: #ffffff;
+    font-size: 1.25em;
+    padding: 15px 25px;
+    border: 1px solid #252121;
+    border-radius: 2px;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+ .create-btn i {
+    color: rgb(87, 201, 87);
+    padding-left: 3px;
+}
+
+.search-btn {
+    color:gray;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.log-in button{
+    background-color: #252121;
+    color: #ffffff;
+    font-size: 1.25em;
+    padding: 15px 25px;
+    border: 1px solid #252121;
+    border-radius: 2px;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    margin-left: 30px;
+    border-radius: 4px;
+}
+
+.sign-up button{
+    background-color: #252121;
+    color: #ffffff;
+    font-size: 1.25em;
+    padding: 15px 25px;
+    border: 1px solid #252121;
+    border-radius: 2px;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-left: 13px;
+}
+
+.body-content {
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    margin: 50px;
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(167, 166, 166);
+    
+}
+
+.body-content > .developers h1 {
+    position: absolute;
+    left: auto;
+    width: 600px;
+    height: 1000px;
+    font-size: 40px;
+    margin-top: -280px;
+}
+
+.body-content > .developers img {
+  width: auto;
+  height: 40px;
+}
+
+.body-content > .developers b {
+    color: white;
+  }
+
+ .information p {
+    position: absolute;
+    left: auto;
+    width: 600px;
+    height: 1000px;
+    font-size: 40px;
+    margin-top: -400px;
+    margin-bottom: 0px;
+    padding-left: 53px;
+    color: gray;
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+ }
+
+ .body-content > .small-text p {
+     margin-left: 670px;
+     margin-top: 10px;
+     margin-bottom: -20px;
+ }
+
+ .small-text img {
+    height: 100%;
+    width: 700px;
+    display:flex;
+    margin-left: 600px;
+    margin-top: 0px;
+    display: inline-block;
+    padding-right: -10000px;
+    
+ }
+
+ .small-text b {
+     color: rgb(76, 187, 214);
+ }
+  
+
+
+.information > .signup-free {
+    background-color: #57d172;
+    color: #000000;
+    padding: 15px 25px;
+    border: 1px solid #252121;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+    border-radius: 4px;
+    margin-left: 55px;
+    margin-top: -250px;
+    position: absolute;
+}
+
+.information > .learn-more {
+    background-color: #000000;
+    color: white;
+    padding: 15px 25px;
+    border: 1px solid #252121;
+    outline: none;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+    border-radius: 4px;
+    margin-left: 350px;
+    margin-top: -250px;
+    position: absolute;
+}
+
+.footer ul {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    list-style: none;
+    background-color: rgb(59, 58, 58);
+    padding: 5px;
+    font-family: 'Varela Round', sans-serif;
+    padding:20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: -54px;
+    border: 1px solid rgb(95, 95 , 95);
+}
+
+
+
+.footer b {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 20px;
+}
+
